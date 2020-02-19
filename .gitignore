@@ -1,0 +1,11 @@
+node_modules/
+.vscode
+
+*.html
+*.txt
+
+__pycache__/
+result/
+
+chromedriver
+chromedriver.exe

@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3"
+    },
+    "scripts": {
+        "preqi-dian": " python3 ./src/qidian.py ",
+        "qi-dian": "node ./src/qidian.js",
+        "sf": "python3 ./src/sf.py",
+        "ci-wei-mao": "python3 ./src/ci_wei_mao.py"
+    }
+}
