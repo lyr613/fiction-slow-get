@@ -7,6 +7,9 @@ from public.fs import init_dir, remove_file
 
 
 def hand_one_chapter(driver, fs):
+    """
+    处理一章
+    """
     title_dom = driver.find_element_by_class_name('article-title')
     title = title_dom.get_attribute('innerText')
     print(title)
@@ -23,6 +26,9 @@ def hand_one_chapter(driver, fs):
 
 
 def link_try(driver, fs):
+    """
+    链式处理
+    """
     # vip地址不一样
     curl = driver.current_url
     if re.search('vip', curl) == None:

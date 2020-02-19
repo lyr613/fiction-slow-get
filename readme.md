@@ -16,7 +16,7 @@
 
 -   python
     -   selenium
--   chromedriver
+-   chromedriver(需修改 src/public/about_driver.py 中的路径)
 
 #### 可选
 

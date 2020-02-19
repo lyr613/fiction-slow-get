@@ -5,6 +5,9 @@ from public.fs import init_dir, remove_file
 
 
 def hand_one_chapter(driver, fs):
+    """
+    处理一章
+    """
     title_dom = driver.find_element_by_id(
         'J_BookCnt').find_element_by_tag_name('h3')
     title = title_dom.get_attribute('innerText')
@@ -30,6 +33,9 @@ def hand_one_chapter(driver, fs):
 
 
 def link_try(driver, fs):
+    """
+    链式处理
+    """
     # 收费的图片显示, 以此判断
     fis = driver.find_elements_by_id('realBookImage')
     if len(fis) == 0:

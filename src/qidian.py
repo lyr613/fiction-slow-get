@@ -3,6 +3,8 @@ from time import sleep
 from os import system
 from selenium.webdriver.chrome.options import Options
 
+# 随手写的, 不建议使用
+
 chrome_options = Options()
 # 设置chrome浏览器无界面模式
 chrome_options.add_argument('--headless')
